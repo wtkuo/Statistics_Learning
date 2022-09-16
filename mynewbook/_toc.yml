@@ -6,7 +6,7 @@ root: intro
 parts:
   - caption: Probability 
     chapters:
-    - file: doc/markdown
+    # - file: doc/markdown
     - file: doc/notebooks
-    - file: doc/Statistics
-    - file: doc/markdown-notebooks
+    # - file: doc/markdown-notebooks
+    - file: doc/statistics

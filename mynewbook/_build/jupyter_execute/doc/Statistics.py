@@ -14,7 +14,7 @@ from scipy import stats
 from matplotlib.pyplot import figure
 
 
-# # Probability
+# ## Probability
 
 # Here, we plot several common continuous distributions.
 # - normal distribution
@@ -22,7 +22,7 @@ from matplotlib.pyplot import figure
 # - gamma distribution
 # - beta distribution
 
-# ## Uniform Distribution
+# ### Uniform Distribution
 
 # The probability density function of the uniform distribution is $$f(x,L) = \frac{1}{L}\hspace{0.1in}\text{ for }L\geq x\geq 0$$
 # For cumulative density function, 
@@ -144,9 +144,9 @@ plt.hlines(xmin=10, xmax=10000,
            color="red")
 
 
-# # Statistical Test
+# ## Statistical Test
 
-# ## one-sample t-test
+# ### one-sample t-test
 
 # Purpose: determine whether an unknown population is different from a specific value
 # 
@@ -174,7 +174,7 @@ for ii in range(10000):
 sns.ecdfplot(p_value_list)
 
 
-# ## Two-sample Z-test
+# ### Two-sample Z-test
 
 # In[9]:
 
@@ -199,16 +199,4 @@ list2 = np.random.normal(mean2,var2,sample2)
 
 from statsmodels.stats.weightstats import ztest 
 ztest(list1,list2, value=10)
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
 

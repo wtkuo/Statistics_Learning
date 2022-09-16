@@ -54,7 +54,6 @@ const thebe_selector_output = ".output, .cell_output"
     <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Notebooks with MyST Markdown" href="markdown-notebooks.html" />
     <link rel="prev" title="Content with notebooks" href="notebooks.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
@@ -122,11 +121,6 @@ const thebe_selector_output = ".output, .cell_output"
 </p>
 <ul class="current nav bd-sidenav">
  <li class="toctree-l1">
-  <a class="reference internal" href="markdown.html">
-   Markdown Files
-  </a>
- </li>
- <li class="toctree-l1">
   <a class="reference internal" href="notebooks.html">
    Content with notebooks
   </a>
@@ -134,11 +128,6 @@ const thebe_selector_output = ".output, .cell_output"
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
    Import Library
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="markdown-notebooks.html">
-   Notebooks with MyST Markdown
   </a>
  </li>
 </ul>
@@ -200,7 +189,7 @@ title="Toggle navigation"
   <div class="menu-dropdown__content">
     <ul>
       <li>
-        <a href="https://mybinder.org/v2/gh/wtkuo/Statistics_Learning/master?urlpath=tree/docs/doc/Statistics.ipynb"
+        <a href="https://mybinder.org/v2/gh/wtkuo/Statistics_Learning/master?urlpath=tree/docs/doc/statistics.ipynb"
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -260,7 +249,7 @@ title="Source repository"
       </li>
       
       <li>
-        <a href="https://github.com/wtkuo/Statistics_Learning/issues/new?title=Issue%20on%20page%20%2Fdoc/Statistics.html&body=Your%20issue%20content%20here."
+        <a href="https://github.com/wtkuo/Statistics_Learning/issues/new?title=Issue%20on%20page%20%2Fdoc/statistics.html&body=Your%20issue%20content%20here."
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -288,7 +277,7 @@ title="Open an issue"
   <div class="menu-dropdown__content">
     <ul>
       <li>
-        <a href="../_sources/doc/Statistics.ipynb"
+        <a href="../_sources/doc/statistics.ipynb"
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -347,56 +336,51 @@ title="Print to PDF"
     </div>
     <nav id="bd-toc-nav" aria-label="Page">
         <ul class="visible nav section-nav flex-column">
- <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#">
-   Import Library
-  </a>
- </li>
- <li class="toc-h1 nav-item toc-entry">
+ <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#probability">
    Probability
   </a>
-  <ul class="visible nav section-nav flex-column">
-   <li class="toc-h2 nav-item toc-entry">
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#uniform-distribution">
      Uniform Distribution
     </a>
    </li>
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#gaussian-normal-distribution">
-     Gaussian/Normal Distribution
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#gaussian-normal-distribution">
+   Gaussian/Normal Distribution
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#exponential-distribution">
+   Exponential Distribution
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#pdf-and-cdf">
+     PDF and CDF
     </a>
    </li>
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#exponential-distribution">
-     Exponential Distribution
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#point-estimate">
+     Point Estimate
     </a>
-    <ul class="nav section-nav flex-column">
-     <li class="toc-h3 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#pdf-and-cdf">
-       PDF and CDF
-      </a>
-     </li>
-     <li class="toc-h3 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#point-estimate">
-       Point Estimate
-      </a>
-     </li>
-    </ul>
    </li>
   </ul>
  </li>
- <li class="toc-h1 nav-item toc-entry">
+ <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#statistical-test">
    Statistical Test
   </a>
-  <ul class="visible nav section-nav flex-column">
-   <li class="toc-h2 nav-item toc-entry">
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#one-sample-t-test">
      one-sample t-test
     </a>
    </li>
-   <li class="toc-h2 nav-item toc-entry">
+   <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#two-sample-z-test">
      Two-sample Z-test
     </a>
@@ -422,56 +406,51 @@ title="Print to PDF"
                         </div>
                         <nav aria-label="Page">
                             <ul class="visible nav section-nav flex-column">
- <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#">
-   Import Library
-  </a>
- </li>
- <li class="toc-h1 nav-item toc-entry">
+ <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#probability">
    Probability
   </a>
-  <ul class="visible nav section-nav flex-column">
-   <li class="toc-h2 nav-item toc-entry">
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#uniform-distribution">
      Uniform Distribution
     </a>
    </li>
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#gaussian-normal-distribution">
-     Gaussian/Normal Distribution
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#gaussian-normal-distribution">
+   Gaussian/Normal Distribution
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#exponential-distribution">
+   Exponential Distribution
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#pdf-and-cdf">
+     PDF and CDF
     </a>
    </li>
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#exponential-distribution">
-     Exponential Distribution
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#point-estimate">
+     Point Estimate
     </a>
-    <ul class="nav section-nav flex-column">
-     <li class="toc-h3 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#pdf-and-cdf">
-       PDF and CDF
-      </a>
-     </li>
-     <li class="toc-h3 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#point-estimate">
-       Point Estimate
-      </a>
-     </li>
-    </ul>
    </li>
   </ul>
  </li>
- <li class="toc-h1 nav-item toc-entry">
+ <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#statistical-test">
    Statistical Test
   </a>
-  <ul class="visible nav section-nav flex-column">
-   <li class="toc-h2 nav-item toc-entry">
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#one-sample-t-test">
      one-sample t-test
     </a>
    </li>
-   <li class="toc-h2 nav-item toc-entry">
+   <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#two-sample-z-test">
      Two-sample Z-test
     </a>
@@ -502,9 +481,8 @@ title="Print to PDF"
 </div>
 </div>
 </div>
-</section>
-<section class="tex2jax_ignore mathjax_ignore" id="probability">
-<h1>Probability<a class="headerlink" href="#probability" title="Permalink to this headline">#</a></h1>
+<section id="probability">
+<h2>Probability<a class="headerlink" href="#probability" title="Permalink to this headline">#</a></h2>
 <p>Here, we plot several common continuous distributions.</p>
 <ul class="simple">
 <li><p>normal distribution</p></li>
@@ -513,10 +491,11 @@ title="Print to PDF"
 <li><p>beta distribution</p></li>
 </ul>
 <section id="uniform-distribution">
-<h2>Uniform Distribution<a class="headerlink" href="#uniform-distribution" title="Permalink to this headline">#</a></h2>
+<h3>Uniform Distribution<a class="headerlink" href="#uniform-distribution" title="Permalink to this headline">#</a></h3>
 <p>The probability density function of the uniform distribution is $<span class="math notranslate nohighlight">\(f(x,L) = \frac{1}{L}\hspace{0.1in}\text{ for }L\geq x\geq 0\)</span><span class="math notranslate nohighlight">\(
 For cumulative density function, 
 \)</span><span class="math notranslate nohighlight">\( F(x) = x/L \text{ for }L\geq x\geq 0 \)</span>$</p>
+</section>
 </section>
 <section id="gaussian-normal-distribution">
 <h2>Gaussian/Normal Distribution<a class="headerlink" href="#gaussian-normal-distribution" title="Permalink to this headline">#</a></h2>
@@ -553,7 +532,7 @@ For cumulative density function,
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="../_images/Statistics_8_0.png" src="../_images/Statistics_8_0.png" />
+<img alt="../_images/statistics_8_0.png" src="../_images/statistics_8_0.png" />
 </div>
 </div>
 </section>
@@ -591,7 +570,7 @@ For cumulative density function,
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="../_images/Statistics_12_0.png" src="../_images/Statistics_12_0.png" />
+<img alt="../_images/statistics_12_0.png" src="../_images/statistics_12_0.png" />
 </div>
 </div>
 </section>
@@ -644,19 +623,18 @@ $<span class="math notranslate nohighlight">\(\lambda = N^{-1}\sum_{i}X_{i}\)</s
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;matplotlib.collections.LineCollection at 0x7fd19134cd90&gt;
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;matplotlib.collections.LineCollection at 0x7f9f98625d90&gt;
 </pre></div>
 </div>
-<img alt="../_images/Statistics_17_1.png" src="../_images/Statistics_17_1.png" />
+<img alt="../_images/statistics_17_1.png" src="../_images/statistics_17_1.png" />
 </div>
 </div>
 </section>
 </section>
-</section>
-<section class="tex2jax_ignore mathjax_ignore" id="statistical-test">
-<h1>Statistical Test<a class="headerlink" href="#statistical-test" title="Permalink to this headline">#</a></h1>
+<section id="statistical-test">
+<h2>Statistical Test<a class="headerlink" href="#statistical-test" title="Permalink to this headline">#</a></h2>
 <section id="one-sample-t-test">
-<h2>one-sample t-test<a class="headerlink" href="#one-sample-t-test" title="Permalink to this headline">#</a></h2>
+<h3>one-sample t-test<a class="headerlink" href="#one-sample-t-test" title="Permalink to this headline">#</a></h3>
 <p>Purpose: determine whether an unknown population is different from a specific value</p>
 <p>Assumptions:</p>
 <ol class="simple">
@@ -688,12 +666,12 @@ $<span class="math notranslate nohighlight">\(\lambda = N^{-1}\sum_{i}X_{i}\)</s
 <div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;AxesSubplot:ylabel=&#39;Proportion&#39;&gt;
 </pre></div>
 </div>
-<img alt="../_images/Statistics_22_1.png" src="../_images/Statistics_22_1.png" />
+<img alt="../_images/statistics_22_1.png" src="../_images/statistics_22_1.png" />
 </div>
 </div>
 </section>
 <section id="two-sample-z-test">
-<h2>Two-sample Z-test<a class="headerlink" href="#two-sample-z-test" title="Permalink to this headline">#</a></h2>
+<h3>Two-sample Z-test<a class="headerlink" href="#two-sample-z-test" title="Permalink to this headline">#</a></h3>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">sample1</span> <span class="o">=</span> <span class="mi">100</span>
@@ -722,11 +700,12 @@ $<span class="math notranslate nohighlight">\(\lambda = N^{-1}\sum_{i}X_{i}\)</s
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>(-3.6928218666956805, 0.0002217793761806082)
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>(-3.997674971227994, 6.396770416007968e-05)
 </pre></div>
 </div>
 </div>
 </div>
+</section>
 </section>
 </section>
 
@@ -763,13 +742,6 @@ $<span class="math notranslate nohighlight">\(\lambda = N^{-1}\sum_{i}X_{i}\)</s
             <p class="prev-next-subtitle">previous</p>
             <p class="prev-next-title">Content with notebooks</p>
         </div>
-    </a>
-    <a class='right-next' id="next-link" href="markdown-notebooks.html" title="next page">
-    <div class="prev-next-info">
-        <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Notebooks with MyST Markdown</p>
-    </div>
-    <i class="fas fa-angle-right"></i>
     </a>
 </div>
             </footer>
