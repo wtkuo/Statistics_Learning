@@ -8,4 +8,5 @@ parts:
     chapters:
     - file: doc/markdown
     - file: doc/notebooks
+    - file: doc/Statistics
     - file: doc/markdown-notebooks
