@@ -5,5 +5,3 @@ I believe the best way to learn it is to visualize the theorems and principles.
 This is the main goal of this book
 
 
-```{tableofcontents}
-```
